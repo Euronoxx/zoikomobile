@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('brandname');
             $table->string('storage');
             $table->string('memory');
+            $table->string('imgpath');
             $table->decimal('price', total: 8, places: 2);
             $table->enum('status', ['yes', 'no'])->default('yes');
             $table->timestamps();

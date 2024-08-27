@@ -133,6 +133,19 @@ a.mainmenu {
     text-align: left;
     font-size: 20px;
 }
+.phoneslider {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.phoneslider h5 {
+    color: #0A5A35;
+    font-weight: 600;
+}
+.phoneslider .imgbox {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 /** Footer css */
 .topfooter {

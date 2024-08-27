@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Simplan;
+use App\Models\Phones;
 
 class HomeController extends Controller
 {
@@ -16,6 +17,7 @@ class HomeController extends Controller
     public function index()
     {
         $simplan = Simplan::get();
-        return view('home', ['simplans' => $simplan]);
+        $phones = Phones::get();
+        return view('home', ['simplans' => $simplan, 'phones' => $phones]);
     }
 }
