@@ -45,9 +45,11 @@ class PhoneController extends Controller
      * @param  \App\Models\cr  $cr
      * @return \Illuminate\Http\Response
      */
-    public function show(Phones $id)
+    public function show($name)
     {
-        //
+        //dd($name);
+        $phone = Phones::where('modelname', str_replace("-", " ", $name))->first();
+        return view('product', ['phone' => $phone]);
     }
 
     /**
