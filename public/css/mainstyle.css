@@ -146,6 +146,25 @@ a.mainmenu {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.phoneslider .price {
+    font-size: 22px;
+    color: #DF1E5A;
+}
+.color-options {
+    display: inline;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.color-contain {
+    display: inline-flex;
+    list-style-type: none;
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    margin-right: 5px;
+    line-height: 15px;
+}
 
 /** Footer css */
 .topfooter {

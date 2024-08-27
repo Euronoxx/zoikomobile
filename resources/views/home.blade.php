@@ -748,12 +748,28 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="row gx-5">
-                @for ($i=0;$i<4;$i++)
+                <?php
+                for ($i=0;$i<4;$i++) {
+                ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">{{ $phones[$i]->modelname }}</h5>
                             <div class="imgbox"><img src="/images/{{$phones[$i]->imgpath}}" alt="iPhone 13 Mini" height="320"></div>
+                            <div class="row px-4">
+                                <div class="col">
+                                    Starting from:<br /><span class="price">£{{ $phones[$i]->price }}</span><br>Device Condition:<br />A1-Flawless || <br>A2-Excellent
+                                </div>
+                                <div class="col">
+                                    Available Colors:<br />
+                                    <ul class="color-options">
+                                        @foreach (explode(',', $phones[$i]->colors) as $color)
+                                            <li style="background-color:{{$color}}" class="{{$color}} color-contain"></li>
+                                        @endforeach
+                                    </ul>
+                                    <br />Internal Storage:<br />{{ $phones[$i]->storage }}
+                                </div>
+                            </div>
                             <p class="card-text text-center">Premium Quality</p>
                             <div class="imgbox">
                                 <a href="{{ route('product', str_replace(' ', '-', $phones[$i]->modelname)) }}" class="btn btn-outline-danger" style="margin-right:20px">View Detail</a>
@@ -762,59 +778,9 @@
                         </div>
                     </div>
                 </div>
-                @endfor
-                <!-- <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">iPhone 13 Mini</h5>
-                            <div class="imgbox"><img src="{{ URL::asset('/images/iphone-13-mini-pink.jpg') }}" alt="iPhone 13 Mini" height="320"></div>
-                            <p class="card-text text-center">Premium Quality</p>
-                            <div class="imgbox">
-                                <a href="{{ route('product', 'iphone-13-mini') }}" class="btn btn-outline-danger" style="margin-right:20px">View Detail</a>
-                                <a href="#" class="btn btn-success">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">iPhone 12 Pro Max</h5>
-                            <div class="imgbox"><img src="{{ URL::asset('/images/iphone-12-pro-max-graphite.jpg') }}" alt="iPhone 12 Pro Max" height="320"></div>
-                            <p class="card-text text-center">Premium Quality</p>
-                            <div class="imgbox">
-                                <a href="{{ route('product', 'iphone-12-pro-max') }}" class="btn btn-outline-danger" style="margin-right:20px">View Detail</a>
-                                <a href="#" class="btn btn-success">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Galaxy S22</h5>
-                            <div class="imgbox"><img src="{{ URL::asset('/images/galaxy-s22.jpg') }}" alt="Galaxy S22" height="320"></div>
-                            <p class="card-text text-center">Premium Quality</p>
-                            <div class="imgbox">
-                                <a href="#" class="btn btn-outline-danger" style="margin-right:20px">View Detail</a>
-                                <a href="#" class="btn btn-success">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">iPhone 14 Pro</h5>
-                            <div class="imgbox"><img src="{{ URL::asset('/images/iphone-14-pro-max-black.jpg') }}" alt="iPhone 14 Pro Max" height="320"></div>
-                            <p class="card-text text-center">Premium Quality</p>
-                            <div class="imgbox">
-                                <a href="#" class="btn btn-outline-danger" style="margin-right:20px">View Detail</a>
-                                <a href="#" class="btn btn-success">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+                <?php
+                }
+                ?>
             </div>
         </div>
         <div class="carousel-item">

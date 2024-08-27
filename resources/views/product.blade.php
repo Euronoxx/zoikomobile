@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
-
 @section('content')
 
-Product Page {{ $phone }}
+<div class="container">
+    Product Page {{ $phone }}
+</div>
 
 @endsection

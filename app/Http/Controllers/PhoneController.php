@@ -58,7 +58,7 @@ class PhoneController extends Controller
      * @param  \App\Models\cr  $cr
      * @return \Illuminate\Http\Response
      */
-    public function edit(Phones $id)
+    public function edit($id)
     {
         //
     }
