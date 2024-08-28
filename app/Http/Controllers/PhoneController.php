@@ -48,8 +48,9 @@ class PhoneController extends Controller
     public function show($name)
     {
         //dd($name);
+        $allphones = Phones::get();
         $phone = Phones::where('modelname', str_replace("-", " ", $name))->first();
-        return view('product', ['phone' => $phone]);
+        return view('product', ['phone' => $phone, 'phones' => $allphones]);
     }
 
     /**

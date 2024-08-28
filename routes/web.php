@@ -27,3 +27,7 @@ Route::get('simplan', [SimplanController::class, 'index'])->name('all-plans');
 Route::get('editplan/{id}', [SimplanController::class, 'edit'])->name('simplan');
 Route::get('phones', [PhoneController::class, 'index'])->name('phones');
 Route::get('/product/{name}', [PhoneController::class, 'show'])->name('product');
+
+/**
+ * Single SIM plan page routes
+ */

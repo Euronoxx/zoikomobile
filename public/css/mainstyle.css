@@ -146,10 +146,47 @@ a.mainmenu {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.phoneslider .price {
+.price {
     font-size: 22px;
     color: #DF1E5A;
 }
+.productpage h4 {
+    color: #838f18;
+    font-size: 28px;
+}
+.checkoutbtn {
+    padding: 10px 20px;
+    border: 1px solid #0A5A35;
+    font-size: 22px;
+    color: #DF1E5A;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+.checkoutbtn:hover {
+    background-color: #DF1E5A;
+    color: #E7E7E8;
+    border: none;
+}
+
+/** CSS for phone storage options */
+.storage-options {
+    display: inline;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.storage-contain {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 10px 16px;
+    border: 1px solid #555555;
+    margin-right: 5px;
+    line-height: 15px;
+}
+
+/** CSS for phone color options */
 .color-options {
     display: inline;
     list-style-type: none;
