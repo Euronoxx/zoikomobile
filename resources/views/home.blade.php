@@ -693,6 +693,9 @@
             <!-- Carousel Section ends -->
         </div>
     </div>
+    <div class="text-center mt-5">
+        <a href="#" class="allplans">View All Plans <i class="bi bi-arrow-right"></i></a>
+    </div>
 </div>
 
 <div class="container py-4 simplanbox">
@@ -787,7 +790,7 @@
             <img src="..." class="d-block w-100" alt="...">
         </div>
     </div>
-    
+
     <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -796,6 +799,13 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button> -->
+    </div>
+</div>
+
+<div class="containerfluid switchnsave">
+    <div class="snslink">
+        <a href="#">Find out more</a>
+        <a href="#">Switch &amp; Save</a>
     </div>
 </div>
 @endsection

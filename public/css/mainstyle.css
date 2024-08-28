@@ -186,6 +186,42 @@ a.mainmenu {
     line-height: 15px;
 }
 
+.switchnsave {
+    background-image: url('/images/switchnsave.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin: 40px 0px;
+    position: relative;
+}
+.snslink {
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+}
+.snslink a {
+    padding: 12px 60px;
+    color: #DF1E5A;
+    border: 1px solid #DF1E5A;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 22px;
+}
+
+.allplans {
+    padding: 12px 28px;
+    color: #DF1E5A;
+    font-size: 20px;
+    border: 1px solid #DF1E5A;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.msicon {
+    padding: 0px 12px;
+    color: #DF1E5A;
+}
+
 /** CSS for phone color options */
 .color-options {
     display: inline;
@@ -281,4 +317,20 @@ footer a {
 }
 footer a:hover {
     color: black;
+}
+
+@media (max-width: 600px) {
+    .switchnsave {
+        height: 300px;
+        background-size: cover;
+    }
+    .snslink a {
+        padding: 12px 20px;
+        color: #DF1E5A;
+        border: 1px solid #DF1E5A;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 14px;
+        margin-right: 22px;
+    }
 }
