@@ -31,3 +31,4 @@ Route::get('/product/{name}', [PhoneController::class, 'show'])->name('product')
 /**
  * Single SIM plan page routes
  */
+Route::get('zoiko-mobile-switch-save-form', [SimplanController::class, 'switchsave'])->name('switchsave');

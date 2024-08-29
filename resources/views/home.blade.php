@@ -15,7 +15,7 @@
             <div class="carousel-item slide1 active">
                 <div class="container">
                     <div class="btnbox">
-                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="{{ route('switchsave') }}" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
                         <a href="#" class="wh">Find out more</a>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
             <div class="carousel-item slide2">
                 <div class="container">
                     <div class="btnbox">
-                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="{{ route('switchsave') }}" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
                         <a href="#" class="wh">Find out more</a>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
             <div class="carousel-item slide3">
                 <div class="container">
                     <div class="btnbox">
-                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="{{ route('switchsave') }}" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
                         <a href="#" class="wh">Find out more</a>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
             <div class="carousel-item slide5">
                 <div class="container">
                     <div class="btnbox">
-                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="{{ route('switchsave') }}" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
                         <a href="#" class="wh">Find out more</a>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
             <div class="carousel-item slide6">
                 <div class="container">
                     <div class="btnbox">
-                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="{{ route('switchsave') }}" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
                         <a href="#" class="wh">Find out more</a>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
             <div class="carousel-item slide7">
                 <div class="container">
                     <div class="btnbox">
-                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="{{ route('switchsave') }}" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
                         <a href="#" class="wh">Find out more</a>
                     </div>
                 </div>
