@@ -72,9 +72,7 @@
                             <label for="fname">PAC Code: *</label>
                             <input type="text" name="paccode" class="form-control"><small>(Required if keeping your number)</small>
                         </div>
-                        <div class="col">
-                            
-                        </div>
+                        <div class="col"></div>
                     </div>
                     <br>
                     <div class="form-check">
@@ -88,9 +86,7 @@
                             <label for="fname">STAC Code: *</label>
                             <input type="text" name="staccode" class="form-control"><small>(Required if cancelling your current service without porting your numbe)</small>
                         </div>
-                        <div class="col">
-                            
-                        </div>
+                        <div class="col"></div>
                     </div>
                     <br>
                     <div class="form-check">
@@ -110,7 +106,6 @@
                     <input type="submit" value="Submit" name="submit" class="btn btn-outline-danger">
                 </form>
             </div>
-            
         </div>
     </div>
 </div>

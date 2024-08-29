@@ -338,6 +338,36 @@ a.mainmenu {
     background-color: white;
 }
 
+.offerbox {
+    border: 1px solid #DF1E5A;
+    border-radius: 8px;
+    padding: 0px;
+    font-size: 22px;
+    color: #0A5A35;
+}
+.offerbox p {
+    margin-left: 15px;
+}
+.offerbox .paybox {
+    display: inline-block;
+    border: 1px solid #0A5A35;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 12px;
+}
+.paybox .numb {
+    color: #FECC00;
+    font-size: 33px;
+}
+.andsign {
+    color: #DF1E5A;
+    font-family: "Futura bold new", Sans-serif;
+    font-size: 40px;
+    line-height: 0.7em;
+}
+
 /** Footer css */
 .topfooter {
     background-color: #EEEEEE;

@@ -25,6 +25,10 @@ class SimplanController extends Controller
         return view('switchsave');
     }
 
+    public function offers () {
+        return view('offers');
+    }
+
     public function destroy ($id) {
         Simplan::destroy($id);
         return \Redirect::route('home')->with(['messsage' => 'Simplan deleted successfully']);

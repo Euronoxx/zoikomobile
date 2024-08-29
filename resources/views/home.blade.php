@@ -98,13 +98,13 @@
                 </a>
             </div>
             <div class="col">
-                <a href="#">
+                <a href="{{ route('switchsave') }}">
                     <img src="{{ URL::asset('/images/homeicon-3.png') }}" class="my-2" width="100" alt="Switch &amp; Save">
                     <p>Switch &amp; Save</p>
                 </a>
             </div>
             <div class="col">
-                <a href="#">
+                <a href="{{ route('offer-page') }}">
                     <img src="{{ URL::asset('/images/homeicon-4.png') }}" class="my-2" width="100" alt="Special Deals">
                     <p>Special Deals</p>
                 </a>
@@ -840,7 +840,7 @@
 <div class="containerfluid switchnsave">
     <div class="snslink">
         <a href="#">Find out more</a>
-        <a href="#">Switch &amp; Save</a>
+        <a href="{{ route('switchsave') }}">Switch &amp; Save</a>
     </div>
 </div>
 @endsection

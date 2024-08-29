@@ -201,7 +201,7 @@
 </svg></a>
                             <ul class="dropdownmenu">
                                 <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Cookie Polycy</a></li>
+                                <li><a href="#">Cookie Policy</a></li>
                                 <li><a href="#">Late Fee Policy</a></li>
                                 <li><a href="#">Refund Policy</a></li>
                                 <li><a href="#">Terms of Sale Policy</a></li>
