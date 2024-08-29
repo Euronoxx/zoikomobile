@@ -20,6 +20,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/**
+ * Auth routes
+ */
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
@@ -31,3 +34,6 @@ Route::get('/product/{name}', [PhoneController::class, 'show'])->name('product')
 /**
  * Single SIM plan page routes
  */
+Route::get('zoiko-mobile-switch-save-form', [SimplanController::class, 'switchsave'])->name('switchsave');
+Route::get('delete-plan/{id}', [SimplanController::class, 'destroy'])->name('delete-plan');
+Route::get('offer-page', [SimplanController::class, 'offers'])->name('offer-page');

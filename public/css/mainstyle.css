@@ -278,6 +278,10 @@ a.mainmenu {
     font-size: 20px;
     margin-right: 22px;
 }
+.snslink a:hover {
+    background-color: #DF1E5A;
+    color: #E7E7E8;
+}
 
 .allplans {
     padding: 12px 28px;
@@ -307,6 +311,61 @@ a.mainmenu {
     border: 1px solid red;
     margin-right: 5px;
     line-height: 15px;
+}
+.greybox {
+    width: 100%;
+    background-color: #f0eeee;
+    padding: 0px 0px;
+    margin-top: 22px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.greybox h4 {
+    color: #DF1E5A;
+    padding: 15px 15px;
+}
+.greybox p {
+    font-size: 18px;
+    color: #0A5A35;
+    padding: 0px 15px;
+    margin-bottom: 100px;
+}
+.redborderbox {
+    width: 100%;
+    border: 1px solid #DF1E5A;
+    border-radius: 8px;
+    padding: 18px 18px;
+    background-color: white;
+}
+
+.offerbox {
+    border: 1px solid #DF1E5A;
+    border-radius: 8px;
+    padding: 0px;
+    font-size: 22px;
+    color: #0A5A35;
+}
+.offerbox p {
+    margin-left: 15px;
+}
+.offerbox .paybox {
+    display: inline-block;
+    border: 1px solid #0A5A35;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 12px;
+}
+.paybox .numb {
+    color: #FECC00;
+    font-size: 33px;
+}
+.andsign {
+    color: #DF1E5A;
+    font-family: "Futura bold new", Sans-serif;
+    font-size: 40px;
+    line-height: 0.7em;
 }
 
 /** Footer css */
