@@ -20,4 +20,9 @@ class SimplanController extends Controller
         $simplan = Simplan::find($id);
         return view('simplan', ['simplan' => $simplan]);
     }
+
+    public function destroy ($id) {
+        Simplan::destroy($id);
+        return \Redirect::route('home')->with(['messsage' => 'Simplan deleted successfully']);
+    }
 }

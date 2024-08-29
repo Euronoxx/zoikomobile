@@ -35,7 +35,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle mainmenu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Zoiko Plans</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">All Plans</a></li>
+                                <li><a class="dropdown-item" href="{{ route('all-plans') }}">All Plans</a></li>
                                 <li><a class="dropdown-item" href="#">Punbil Sector Lifetime Deals</a></li>
                                 
                                 <li><a class="dropdown-item" href="#">Low Income Deals</a></li>
