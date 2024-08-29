@@ -5,33 +5,68 @@
 <div class="containerfluid">
     <div class="headbar">
         <div class="container py-2">
-            Enjoy Amazing SIM Only Deals From the Animal & Music Loving Network!
+            Enjoy Amazing SIM Only Deals From the Animal <span style="color:#DF1E5A">&amp;</span> Music Loving Network!
         </div>
     </div>
 
     <!-- Carousel Section -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{ URL::asset('/images/banner-img-1.webp') }}" class="d-block w-100" alt="Slide One">
+            <div class="carousel-item slide1 active">
+                <div class="container">
+                    <div class="btnbox">
+                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="#" class="wh">Find out more</a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="{{ URL::asset('/images/banner-img-2.webp') }}" class="d-block w-100" alt="Slide Two">
+            <div class="carousel-item slide2">
+                <div class="container">
+                    <div class="btnbox">
+                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="#" class="wh">Find out more</a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="{{ URL::asset('/images/banner-img-3.webp') }}" class="d-block w-100" alt="Slide Three">
+            <div class="carousel-item slide3">
+                <div class="container">
+                    <div class="btnbox">
+                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="#" class="wh">Find out more</a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="{{ URL::asset('/images/slide-4.png') }}" class="d-block w-100" alt="Slide four">
+            <div class="carousel-item slide4">
+                <div class="container">
+                    <div class="btnbox">
+                        <a href="#" class="gr">View Detail</a>
+                        <a href="#" class="wh">Buy Now</a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="{{ URL::asset('/images/slide-5.webp') }}" class="d-block w-100" alt="Slide five">
+            <div class="carousel-item slide5">
+                <div class="container">
+                    <div class="btnbox">
+                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="#" class="wh">Find out more</a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="{{ URL::asset('/images/slide-6.webp') }}" class="d-block w-100" alt="Slide six">
+            <div class="carousel-item slide6">
+                <div class="container">
+                    <div class="btnbox">
+                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="#" class="wh">Find out more</a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="{{ URL::asset('/images/slide-7.webp') }}" class="d-block w-100" alt="Slide seven">
+            <div class="carousel-item slide7">
+                <div class="container">
+                    <div class="btnbox">
+                        <a href="#" class="gr">Switch <span style="color:#DF1E5A">&amp;</span> Save</a>
+                        <a href="#" class="wh">Find out more</a>
+                    </div>
+                </div>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -694,7 +729,7 @@
         </div>
     </div>
     <div class="text-center mt-5">
-        <a href="#" class="allplans">View All Plans <i class="bi bi-arrow-right"></i></a>
+        <a href="{{ route('all-plans') }}" class="allplans">View All Plans <i class="bi bi-arrow-right"></i></a>
     </div>
 </div>
 
