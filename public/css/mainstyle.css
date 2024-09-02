@@ -342,7 +342,7 @@ a.mainmenu {
     border: 1px solid #DF1E5A;
     border-radius: 8px;
     padding: 0px;
-    font-size: 22px;
+    font-size: 16px;
     color: #0A5A35;
 }
 .offerbox p {
@@ -361,11 +361,30 @@ a.mainmenu {
     color: #FECC00;
     font-size: 33px;
 }
+.green24bold {
+    color: #0A5A35;
+    font-size: 24px;
+    font-weight: 600;
+}
+.green18 {
+    color: #0A5A35;
+    font-size: 22px;
+}
 .andsign {
     color: #DF1E5A;
     font-family: "Futura bold new", Sans-serif;
     font-size: 40px;
     line-height: 0.7em;
+}
+.txtred {
+    color: #DF1E5A;
+}
+.promobar {
+    display: block;
+    border: 1px solid #DF1E5A;
+    border-radius: 8px;
+    padding: 8px 8px;
+    text-align: center;
 }
 
 /** Footer css */

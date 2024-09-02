@@ -37,3 +37,4 @@ Route::get('/product/{name}', [PhoneController::class, 'show'])->name('product')
 Route::get('zoiko-mobile-switch-save-form', [SimplanController::class, 'switchsave'])->name('switchsave');
 Route::get('delete-plan/{id}', [SimplanController::class, 'destroy'])->name('delete-plan');
 Route::get('offer-page', [SimplanController::class, 'offers'])->name('offer-page');
+Route::get('offer-plans', [SimplanController::class, 'offerplans'])->name('offer-plans');
