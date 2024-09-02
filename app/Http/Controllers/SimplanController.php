@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Simplan;
+use App\Models\Offerplans;
 
 class SimplanController extends Controller
 {
@@ -27,6 +28,11 @@ class SimplanController extends Controller
 
     public function offers () {
         return view('offers');
+    }
+
+    public function offerplans () {
+        $offerplans = Offerplans::get();
+        return view('offerplans', ['offerplans' => $offerplans]);
     }
 
     public function destroy ($id) {
